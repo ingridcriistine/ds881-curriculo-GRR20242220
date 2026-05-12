@@ -1,0 +1,803 @@
+.littleTitle {
+    font-size: 15px;
+    color: #894bdb;
+}
+
+.sectionTitle {
+    font-size: 28px;
+}
+
+.iconMenu {
+    display: none;
+    background-color: transparent;
+    border: none;
+    width: 40%;
+}
+
+.iconMenu img {
+    width: 10%;
+}
+
+/*-------------------------------------------- Home ------------------------------------------------*/
+.home {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+    height: 60vh;
+    padding: 10px 150px 10px 150px;
+}
+
+.boxHome {
+    width: 90%;
+}
+
+.btnBack {
+    position: fixed;
+    left: 96%;
+    top: 90%;
+    width: 40px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    padding-top: 10px;
+    background: linear-gradient(to right,#007FC6, #4D00AF, #A907AC);
+    color: rgb(224, 224, 224);
+}
+
+.perfil img  {
+    width: 390px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: #722cc2;
+    margin-right: 50px;
+}
+
+h4 {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+h5 {
+    font-size: 40px;
+    padding: 0;
+    margin: 30px 0px 30px 0px;
+    width: 60%;
+    color: #894bdb;
+}
+
+.homeTitle {
+    width: 52%;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.homeMedia {
+    font-size: 15px;
+}
+
+.homeIcons img {
+    width: 30px;
+    height: 30px;
+    padding: 20px 15px 0 0;
+}
+
+.btnCv {
+    width: 290px;
+    height: 60px;
+    font-size: 25px;
+    background: linear-gradient(to right,#007FC6, #4D00AF, #A907AC);
+    color: white;
+    border-radius: 30px;
+    margin: 50px 0px 50px 0px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 0.1em;
+}
+
+.btnCv:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.homeIcons img:hover {
+    opacity: 0.8;
+}
+
+/*-------------------------------------------- About me ------------------------------------------------*/
+.aboutMe {
+    margin-top: 200px;
+    padding: 100px 150px 100px 150px;
+    background-color: rgb(24, 24, 26);
+}
+
+.whoAmI {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgsAbout {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.imgLeft {
+    margin: 0px 200px 0px 100px;
+    width: 25%;
+    border-radius: 100%;
+}
+
+.imgRight {
+    margin: 0px 200px 0px 300px;  
+    width: 25%;
+    border-radius: 100%;
+}
+
+.boxAbout {
+    width: 50%;
+}
+
+.sectionText {
+    margin-top: 40px;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+.sectionFooter {
+    display: flex;
+}
+
+.sectionFooterText {
+    display: flex;
+    margin-top: 15px;
+}
+
+.itemFooter {
+    margin: 80px 50px 50px 0px;
+    font-size: 13px;
+}
+
+.academicFormations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.containerFormations {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.boxFormation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.boxFormation img {
+    width: 100%;
+    border-radius: 100%;
+    padding: 10%;
+}
+
+.formationTitle {
+    width: 80%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.formationTitlePlace {
+    color: #894bdb;
+}
+
+.formationYear {
+    font-size: 13px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.experienceDescription {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.columnLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxExperience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 170px;
+    background-color: #6722a7;
+    margin: 50px;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.boxExperienceRight {
+    margin: 200px 0px 50px 30px;
+}
+
+.boxExperienceLeft {
+    margin: 50px 30px 50px 0px;
+} 
+
+.boxExperienceLeft2 {
+    margin: 150px 30px 50px 0px;
+} 
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lines {
+    margin-top: 80px;
+}
+
+.lines .line1, .lines .line2, .line2 {
+    width: 150px;
+    height: 5px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
+
+.line2 {
+    margin-top: 280px;
+}
+
+.lines .line2 {
+    margin-top: 370px;
+}
+
+.column {
+    width: 5px;
+    height: 380px;
+    background-color: #ffffff;
+    margin-top: 130px;
+}
+
+.experienceTitle {
+    font-size: 20px;
+}
+
+.experienceText {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.experienceYear {
+    font-size: 13px;
+}
+
+.curiosities {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.boxCuriosity {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.boxCuriosity img {
+    width: 35%;
+    border-radius: 100%;
+}
+
+.curiosityText {
+    width: 60%;
+    line-height: 25px;
+}
+
+.curiosityTextRight {
+    margin: 0px 200px 50px 0px;
+}
+
+.curiosityTextLeft {
+    margin: 0px 0px 50px 200px;
+}
+
+
+/*-------------------------------------------- My Skills ------------------------------------------------*/
+.mySkills {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 150px 100px 150px;
+    border-top: 25px solid rgb(24, 24, 26);
+}
+
+.hardSkills, .softSkills {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.softSkills {
+    margin-top: 130px;
+    width: 80%;
+    justify-content: center;
+}
+
+.boxHardSkill {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.hardSkillContainer {
+    width: 100%;
+    height: 50px;
+    background-color: #5c1397; 
+    border-radius: 10px;
+    margin: 5px 10px 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hardSkillBar {
+    width: 70%;
+    height: 2px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.hardSkillCircle {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #ffffff;
+}
+
+.boxSoftSkill {
+    width: 220px;
+    height: 50px;
+    background: linear-gradient(to right,#007FC6, #4D00AF, #A907AC);
+    border-radius: 10px;
+    margin: 5px 15px 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*-------------------------------------------- Projects ------------------------------------------------*/
+.projects {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 60px;
+    background-color: rgb(24, 24, 26);
+    padding: 100px 0px 100px 0px;
+}
+
+.projectsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boxProject {
+    margin-top: 50px;
+    width: 70%;
+    border: 2px solid #6722a7;
+    height: 280px;
+    border-radius: 10px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 10px;
+}
+
+.boxProject img {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 10px;
+}
+
+.boxProject iframe {
+    width: 30%;
+    height: 100%;
+}
+
+.projectTitle {
+    font-size: 20px;
+}
+
+.projectText {
+    width: 70%;
+    text-align: justify;
+    margin: 50px 0 50px 0;
+    line-height: 23px;
+}
+
+.projectLink {
+    background: linear-gradient(to right,#007FC6, #4D00AF, #A907AC);
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 35px;
+    margin-top: 80px;
+}
+
+/*-------------------------------------------- Contact ------------------------------------------------*/
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 80px 0 100px 0;
+}
+
+.contactsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.contactText {
+    margin-bottom: 30px;
+}
+
+.boxContacts, .boxSocialMedia {
+    margin: 100px;
+}
+
+.contactIcons img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+/*-------------------------------------------- Footer ------------------------------------------------*/
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+}
+
+
+/*-------------------------------------------- Interactions------------------------------------------------*/
+h3:hover {
+    color: #894bdb;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.homeIcons img:hover, .contactIcons img:hover {
+    cursor: pointer;
+}
+
+#btnCv:hover, .circle img:hover, .boxHardSkill:hover, .hardSkillContainer:hover, .boxSoftSkill:hover, .contactText:hover {
+    color: #918a99;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+/*---------------RESPONSIVIDADE-------------------*/
+/*Celular*/
+@media (width <= 899px) {
+    /*HEADER*/
+    
+
+    .lines .line1, .lines .line2, .line2, .middle {
+        display: none;
+    }
+
+    .boxExperienceLeft, .boxExperienceLeft2 {
+        margin-left: 150px;  
+        margin-right: 0px;
+    }
+
+    .boxExperienceRight {
+        margin-top: 235px;
+        margin-left: -350px;
+    }
+
+    .home {
+        margin-top: 500px;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .top {
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+        gap: 50px;
+    }
+
+    .home {
+        flex-flow: column-reverse;
+        height: 650px;
+    }
+
+    .boxHome, .homeTitle {
+        width: 600px;
+    }
+
+    h5 {
+        width: 100%;
+    }
+
+    .containerFormations {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .aboutMe, .mySkills {
+        width: 100%;
+    }
+
+    .boxFormation {
+        width: 80%;
+    }
+
+    .boxCuriosity img {
+        width: 30%;
+        margin: 0;
+    }
+
+    .curiosities {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .boxCuriosity img {
+        width: 30%;
+        border-radius: 100%;
+    }
+    
+    .curiosityText {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .curiosityTextLeft, .curiosityTextRight {
+        margin: 0 80px 0 80px;
+    }
+
+    .hardSkills {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 80px 0 80px 0;
+    }
+
+    .boxHardSkill {
+        width: 45%;
+    }
+
+    .boxSoftSkill {
+        width: 45%;
+    }
+
+    .projects {
+        width: 100%;
+    }
+
+    .projects img {
+        width: 30%;
+    }
+
+    .imgsAbout {
+        width: 50%;
+    }
+
+    .imgRight, .imgLeft {
+        margin: 20px 0 20px 0;  
+        width: 45%;
+        border-radius: 100%;
+    }
+
+    .boxAbout {
+        width: 100%;
+    }
+
+    .sectionText {
+        font-size: 20px;
+    }
+
+    .sectionFooter{
+        font-size: 18px;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+}
+
+/*Notebook*/
+@media (width >= 900px) and (width <=1299px){
+    .top {
+        justify-content: center;
+        flex-direction: column;
+        height: 150px;
+        gap: 30px;
+    }
+
+    h5 {
+        width: 100%;
+    }
+
+    /* .projects {
+        width: 100vh;
+    } */
+
+    /* .iconMenu {
+        display: block;
+    } */
+
+    .home {
+        margin-top: 350px;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .boxHome, .homeTitle {
+        width: 100%;
+    }
+
+    .perfil {
+        width: 50%;
+    }
+    
+    .containerFormations {
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+    .aboutMe, .mySkills {
+        width: 75%;
+    }
+
+    .boxFormation {
+        width: 80%;
+    }
+
+    .boxCuriosity img {
+        width: 30%;
+        margin: 0;
+    }
+
+    .curiosities {
+        width: 100%;
+        margin: 0;
+    }
+    
+    .boxCuriosity img {
+        width: 30%;
+        border-radius: 100%;
+    }
+    
+    .curiosityText {
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    .curiosityTextLeft, .curiosityTextRight {
+        margin: 0 80px 0 80px;
+    }
+
+    .hardSkills {
+        flex-wrap: wrap;
+        gap: 10px;
+        margin: 80px 0 80px 0;
+    }
+
+    .boxHardSkill {
+        width: 45%;
+    }
+
+    .boxSoftSkill {
+        width: 45%;
+    }
+
+    .projects img {
+        width: 30%;
+    }
+
+    .contactsContainer {
+        width: 100%;
+    }
+
+    .lines .line1, .lines .line2, .line2, .middle {
+        display: none;
+    }
+
+    .boxExperienceLeft, .boxExperienceLeft2 {
+        margin-left: 50px;  
+        margin-right: 0px;
+    }
+
+    .boxExperienceRight {
+        margin-top: 235px;
+        margin-left: -350px;
+    }
+
+    .imgsAbout {
+        width: 50%;
+    }
+
+    .imgRight, .imgLeft {
+        margin: 20px 0 20px 0;  
+        width: 45%;
+        border-radius: 100%;
+    }
+
+    .boxAbout {
+        width: 100%;
+    }
+
+    .sectionText {
+        font-size: 20px;
+    }
+
+    .sectionFooter{
+        font-size: 18px;
+    }
+
+    .copyright {
+        width: 100%;
+    }
+
+}
