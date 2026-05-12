@@ -76,9 +76,9 @@ function App() {
                     <div className={style.boxAbout}>
                         <p className={style.littleTitle}>About me</p>
                         <p className={style.sectionTitle}>WHO AM I?</p>
-                        <p className={style.sectionText}>Hello, my name is Ingrid, I'm nineteen years old and I'm growing in my professional life, with lots of changes and new experiences.</p>
-                        <p className={style.sectionText}>I'm currently working for Bosch Company as an apprentice. I'm learning more about technology and studying a lot of programming languages.</p>
-                        <p className={style.sectionText}>I'm a very curious and determined person! I love interacting with different people and learning about a variety of things. </p>
+                        <p className={style.sectionText}>Hello, my name is Ingrid, I&apos;m nineteen years old and I&apos;m growing in my professional life, with lots of changes and new experiences.</p>
+                        <p className={style.sectionText}>I&apos;m currently working for Bosch Company as an apprentice. I&apos;m learning more about technology and studying a lot of programming languages.</p>
+                        <p className={style.sectionText}>I&apos;m a very curious and determined person! I love interacting with different people and learning about a variety of things. </p>
                         <p className={style.sectionText}>Did you say challenge? I accept!</p>
                         
                         <div className={style.sectionFooter}>
@@ -127,7 +127,7 @@ function App() {
                     <p className={style.sectionTitle}>CURIOSITIES</p>
                     <div className={style.boxCuriosity}>
                         <img src={Music} alt="Ícone"/>
-                        <p className={`${style.curiosityText} ${style.curiosityTextLeft}`}>I love music! I play guitar, ukulele, keyboard (a little) and I’m currently learning violin by myself. I've had a passion for music since I was a child. My favorite hobby is singing.</p>
+                        <p className={`${style.curiosityText} ${style.curiosityTextLeft}`}>I love music! I play guitar, ukulele, keyboard (a little) and I&apos;m currently learning violin by myself. I&apos;ve had a passion for music since I was a child. My favorite hobby is singing.</p>
                     </div>
                     <div className={style.boxCuriosity}>
                         <p className={`${style.curiosityText} ${style.curiosityTextRight}`}>I read at least fifteen books a year. I really enjoy the peace of reading I book outdoors, in the middle of nature.</p>
