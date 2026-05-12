@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root {
+    --font: "Ubuntu", sans-serif;;
+    --bg: #160033;
+    --white: rgb(238, 227, 227);
+    --gradient: linear-gradient(to right,#007FC6, #4D00AF, #A907AC);
+    --shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+  
+* {
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0;
+    color: var(--white);
+    font-family: var(--font);
+    letter-spacing: 0.1em;
+}
+
+body, header {
+  background-color: var(--bg);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  position: fixed;
+  width: 85%;
+  top: 0;
+  box-shadow: var(--shadow);
+  padding: 10px 150px 10px 150px;
+}
+
+h2 {
+  font-size: 30px;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(243, 235, 235);
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+hr {
+  width: 100%;
+  margin: 80px 0 50px 0;
+}
+
+footer {
+  background-color: #2a0a55;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+
+/*---------------RESPONSIVIDADE-------------------*/
+/*Celular*/
+@media only screen and (max-width: 899px) {
+  /*HEADER*/
+  nav {
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  header {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 500px) and (max-width: 899px) {
+
+}
+
+/*Notebook*/
+@media screen and (min-width: 600px) and (max-width: 1299px) {
+  nav {
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+  }
+  header {
+    width: 100%;
+    padding: 0;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+/*Computadores*/
+@media screen and (min-width: 1300px) {
+  body {
+
+  }
+}
